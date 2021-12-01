@@ -43,8 +43,8 @@ msgid ""
 "inbox(or spam) to activate your account"
 msgstr ""
 "Su correo electrónico se encuentra en nuestra base de datos, pero Ud. no "
-"haconfirmado todavía esta dirección. Por favor, busque el correo de "
-"confirmaciónen su bandeja de entrada (o spam) para activar su cuenta"
+"ha confirmado todavía esta dirección. Por favor, busque el correo de "
+"confirmación en su bandeja de entrada (o spam) para activar su cuenta"
 
 #: accounts/forms.py:90
 #, fuzzy
@@ -84,7 +84,7 @@ msgstr "Ingrese su correo electrónico"
 
 #: accounts/forms.py:120
 msgid "Reset Password"
-msgstr "Restaurar mi contraseña"
+msgstr "Restablecer contraseña"
 
 #: accounts/templates/accounts/acc_active_email.html:4
 msgid "Activate your EU-Citizen.Science account."
@@ -95,7 +95,7 @@ msgstr "Active su cuenta EU-Citizen Science"
 #, fuzzy, python-format
 #| msgid "Password reset on %(site_name)s"
 msgid "Password reset on %(domain)s"
-msgstr "Resetear la contraseña en %(site_name)s"
+msgstr "Restablecer la contraseña en %(site_name)s"
 
 #: contact/templates/contact.html:10 contact/templates/contact.html:19
 #: contact/templates/contact.html:28
@@ -134,7 +134,7 @@ msgstr "Nombre del evento"
 
 #: events/forms.py:12
 msgid "A brief description of the event"
-msgstr ""
+msgstr "Breve descripción del evento"
 
 #: events/forms.py:13
 msgid "Location of the Event"
@@ -142,7 +142,7 @@ msgstr "Localización del evento"
 
 #: events/forms.py:17
 msgid "Please provide a URL to an external web site for the event"
-msgstr ""
+msgstr "Por favor, incluya una URL que dirija a la página web externa del evento"
 
 #: events/templates/_intro_new_event.html:3
 #, fuzzy
@@ -172,15 +172,15 @@ msgstr "Información del evento"
 
 #: events/templates/events.html:11
 msgid "On going <span class='lightBlue-color'>events</span>"
-msgstr ""
+msgstr "En curso"
 
 #: events/templates/events.html:24
 msgid "Upcoming <span class='lightBlue-color'>events</span>"
-msgstr ""
+msgstr "Próximos"
 
 #: events/templates/events.html:36
 msgid "Past <span class='lightBlue-color'>events</span>"
-msgstr ""
+msgstr "Pasados"
 
 #: events/templates/new_event.html:25
 msgid "New event"
@@ -214,7 +214,7 @@ msgstr "Tipo"
 
 #: organisations/forms.py:27
 msgid "Please select one."
-msgstr ""
+msgstr "Por favor, seleccione uno."
 
 #: organisations/forms.py:31
 #, fuzzy
@@ -232,7 +232,7 @@ msgstr "Por favor, indique la persona o punto de contacto de la organización"
 #, fuzzy
 #| msgid "Public Contact Point"
 msgid "Public contact point"
-msgstr "Correo electrónico del punto de contacto"
+msgstr "Hacer público el contacto"
 
 #: organisations/forms.py:45 platforms/forms.py:68
 #, fuzzy
@@ -243,8 +243,8 @@ msgid ""
 "Please provide the email address of the contact person or contact point. "
 "Note you will need permission to do that."
 msgstr ""
-"Por favor, indique la dirección de correo electrónico del contacto de la "
-"organización.Tenga en cuenta que deberá tener permiso para ello"
+"Por favor, indique la dirección de correo electrónico de la persona o punto de contacto"
+"Tenga en cuenta que deberá tener permiso para ello"
 
 #: organisations/forms.py:92 projects/forms.py:478 resources/forms.py:290
 msgid "Give additional users permission to edit"
@@ -277,7 +277,7 @@ msgstr "Eliminar"
 #, fuzzy
 #| msgid "Sort by Most Recent Updated"
 msgid "Most Recent Updated"
-msgstr "Ordenar por añadidos más recientes"
+msgstr "Añadidos más recientes"
 
 #: organisations/templates/_finder_organisation.html:12
 #: organisations/templates/_finder_organisation.html:17
@@ -292,18 +292,18 @@ msgstr "País"
 #, fuzzy
 #| msgid "Keywords"
 msgid "keyword:"
-msgstr "Palabras clave"
+msgstr "palabra clave"
 
 #: organisations/templates/_finder_organisation.html:49
 #: projects/templates/_finder_projects.html:83
 #, fuzzy
 #| msgid "Country"
 msgid "country:"
-msgstr "País"
+msgstr "país"
 
 #: organisations/templates/_finder_organisation.html:57
 msgid "type:"
-msgstr ""
+msgstr "tipo:"
 
 #: organisations/templates/_finder_organisation.html:62
 #: templates/_what_can_you_find_here.html:55
@@ -325,7 +325,7 @@ msgstr "encontradas"
 #: profiles/templates/profiles/_finder_users.html:14
 #: projects/templates/_finder_projects.html:125
 msgid "Clear current search query and filters"
-msgstr "Borra la búsqueda actual"
+msgstr "Borrar la búsqueda actual y los filtros"
 
 #: organisations/templates/_intro_form_organisation.html:6
 #: platforms/templates/_intro_form_platform.html:6
@@ -359,10 +359,13 @@ msgid ""
 "information in the fields below (indicated with an asterisk*), and as much "
 "of the non-mandatory information as possible."
 msgstr ""
-"Gracias por proponer un nuevo recurso de ciencia ciudadana y compartirlo en "
-"laPlataforma EU-Citizen.Science. Por favor, complete toda la información "
+"Gracias por crear el perfil de su organización en la plataforma EU-Citizen.Science."
+"Este puede enlazarse con los perfiles personales de la "
+"gente de tu organización, los perfiles en los que su organización está "
+"involucrada, y los recursos y formación que se han "
+"publicado desde su organización. Por favor, complete toda la información "
 "requerida en los siguientes campos (marcados por un asterisco*), así como la "
-"información noesencial que sea posible."
+"información no esencial que sea posible."
 
 #: organisations/templates/_intro_form_organisation.html:15
 #, fuzzy
@@ -377,9 +380,9 @@ msgid ""
 "moderators. This step is simply to check for spam or inappropriate uses of "
 "the profile form."
 msgstr ""
-"Al guardar este perfil, los datos de su organización serán enviados "
-"arevisión por uno de los miembros del consorcio de EU-Citizen.Science. Este "
-"paso se realiza solamente para comprobar si es ‘spam’ o un uso inapropiado "
+"Al guardar este perfil, los datos de su organización serán inmediatamente mostrados "
+"en la plataforma, y serán revisiados por una persona moderadora de la plataformau. "
+"Este paso se realiza solamente para comprobar si es spam o un uso inapropiado "
 "del formulario."
 
 #: organisations/templates/_intro_form_organisation.html:17
