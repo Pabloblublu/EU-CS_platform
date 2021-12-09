@@ -142,7 +142,7 @@ msgstr "Localización del evento"
 
 #: events/forms.py:17
 msgid "Please provide a URL to an external web site for the event"
-msgstr ""
+msgstr "Por favor, indique una dirección al sitio web externo del evento"
 
 #: events/templates/_intro_new_event.html:3
 #, fuzzy
@@ -196,7 +196,7 @@ msgstr "Nombre u organización"
 #, fuzzy
 #| msgid "Please name the contact person or contact point for the organisation"
 msgid "Please provide the URL to the website of the organisation."
-msgstr "Por favor, indique la persona o punto de contacto de la organización"
+msgstr "Por favor, indique la dirección al sitio web de la organización"
 
 #: organisations/forms.py:21
 #, fuzzy
@@ -393,6 +393,10 @@ msgid ""
 "Please indicate the author or copyright holder of pictures. You may need to "
 "obtain express written permission from them."
 msgstr ""
+"Al tener la autoría de este perfil, nos gustaría señalar que debe "
+"aclarar los derechos de imagen y copyrights del contenido que está aádiendo. "
+"Por favor, indique la autoría o copyright de las imágenes. Necesitará tener "
+"consentimiento expreso para ello."
 
 #: organisations/templates/finder_organisations.html:44
 msgid "result"
@@ -412,7 +416,7 @@ msgstr "Recursos"
 #, fuzzy
 #| msgid "in Resources"
 msgid "Training resources"
-msgstr "en Recursos"
+msgstr "Recursos formativos"
 
 #: organisations/templates/organisation.html:60
 msgid "Members"
@@ -437,25 +441,25 @@ msgstr "Eliminar Organización"
 #, fuzzy
 #| msgid "Moderation"
 msgid "Main information"
-msgstr "Revisión"
+msgstr "Información principal"
 
 #: organisations/templates/organisation_form.html:62
 #: platforms/templates/platform_form.html:43
 #, fuzzy
 #| msgid "Contact Point Email"
 msgid "Contact information"
-msgstr "Correo electrónico del punto de contacto"
+msgstr "Información de contacto"
 
 #: organisations/templates/organisation_form.html:75
 #, fuzzy
 #| msgid "Organisation"
 msgid "Organisation logo"
-msgstr "Organización"
+msgstr "Logo de la organización"
 
 #: organisations/templates/organisation_form.html:96
 #: projects/templates/project.html:151
 msgid "Location"
-msgstr ""
+msgstr "Localización"
 
 #: organisations/templates/organisation_form.html:107
 #: profiles/templates/profiles/edit_profile.html:56 templates/_save_zone.html:3
@@ -464,27 +468,27 @@ msgstr "Guardar"
 
 #: organisations/templates/organisations.html:11
 msgid "organisation <span class='lightBlue-color'>search</span>"
-msgstr ""
+msgstr "<span class='lightBlue-color'>buscar</span> organización"
 
 #: organisations/views.py:50
 msgid "Organisation added correctly"
-msgstr ""
+msgstr "Organización añadida correctamente"
 
 #: platforms/forms.py:26
 #, fuzzy
 #| msgid "The name or the organisation"
 msgid "Please write the name of the network or platform."
-msgstr "Nombre u organización"
+msgstr "Por favor, escriba el nombre de la red o plataforma"
 
 #: platforms/forms.py:31 resources/forms.py:24
 msgid "URL"
-msgstr ""
+msgstr "Enlace"
 
 #: platforms/forms.py:32
 #, fuzzy
 #| msgid "URL of the organisation"
 msgid "Please provide the URL of the network or platform."
-msgstr "URL de la organización"
+msgstr "Por favor, indique el enlace a la red o plataforma"
 
 #: platforms/forms.py:37
 #, fuzzy
@@ -492,42 +496,44 @@ msgstr "URL de la organización"
 #| "Please briefly describe the organisation (ideally in 500 words or less)"
 msgid "Please briefly describe the network or platform (max 3000 characters)."
 msgstr ""
-"Por favor, describa la organización (preferiblemente en 500 palabras o menos)"
+"Por favor, describa brevemente la red o plataforma (máximo 3000 caracteres)."
 
 #: platforms/forms.py:41
 #, fuzzy
 #| msgid "Geographic Extend"
 msgid "Geographic extent"
-msgstr "Localización geográfica"
+msgstr "Alcance geográfico"
 
 #: platforms/forms.py:42
 #, fuzzy
 #| msgid "The name or the organisation"
 msgid "Please indicate the spatial scale of the network or platform."
-msgstr "Nombre u organización"
+msgstr "Por favor, indique la dimensión espacial de la red o la plataforma."
 
 #: platforms/forms.py:48
 #, fuzzy
 #| msgid "The name or the organisation"
 msgid "Please select the country(ies) related to the network or platform."
-msgstr "Nombre u organización"
+msgstr "Por favor, seleccione el(los) país(es) relacionados con la red o plataforma."
 
 #: platforms/forms.py:51
 msgid "Network / platform locality"
-msgstr ""
+msgstr "Localización de la red / plataforma"
 
 #: platforms/forms.py:55
 msgid ""
 "Please describe the locality of the network or platform. For example: City "
 "of Lisbon."
 msgstr ""
+"Por favor, describa la localización de la red o plataforma. Por ejemplo: Ciudad "
+"de Lisboa"
 
 #: platforms/forms.py:60
 #, fuzzy
 #| msgid "Please name the contact person or contact point for the organisation"
 msgid ""
 "Please name the contact person or contact point for the network or platform."
-msgstr "Por favor, indique la persona o punto de contacto de la organización"
+msgstr "Por favor, indique la persona o punto de contacto de la red o plataforma."
 
 #: platforms/forms.py:65 projects/forms.py:164
 #, fuzzy
@@ -550,39 +556,39 @@ msgid ""
 "please add <a href=\"/new_organisation\" target=_blank\">here</a> before "
 "submitting the network or platform."
 msgstr ""
-"Organización(es) que han contribuido al recurso (en caso de selección "
-"múltiple, separe con comas o pulsando enter. Si no están en el listado, por "
-"favor, añádalas <a href=\"/new_organisation\">here</a > antes de enviar"
+"Por favor, seleccione la(s) organización(es) que coordinan la plataforma. Si no está listada, "
+"por favor, añada <a href=\"/new_organisation\" target=_blank\">aquí</a> después"
+"de registrar la red o plataforma."
 
 #: platforms/forms.py:87
 msgid "Logo of your network or platform"
-msgstr ""
+msgstr "Logo de su red o plataforma"
 
 #: platforms/forms.py:88
 msgid "This image will be resized to 600x400 pixels."
-msgstr ""
+msgstr "Esta imagen será redimensionada a 600x400 píxeles."
 
 #: platforms/forms.py:97 projects/forms.py:238
 msgid "Logo credit, if applicable"
-msgstr ""
+msgstr "Crédito del logo, si procede"
 
 #: platforms/forms.py:101
 msgid "Network or platform profile image"
-msgstr ""
+msgstr "Imagen de perfil de la red o plataforma"
 
 #: platforms/forms.py:102
 msgid "This image will be resized to 1100x400 pixels."
-msgstr ""
+msgstr "Esta imagen será redimensionada a 1100x400 píxeles."
 
 #: platforms/forms.py:111
 msgid "Profile image credit, if applicable."
-msgstr ""
+msgstr "Crédito de la imagen de perfil, si procede."
 
 #: platforms/templates/_intro_form_platform.html:8
 #, fuzzy
 #| msgid "The Platform"
 msgid "platform"
-msgstr "La Plataforma"
+msgstr "plataforma"
 
 #: platforms/templates/_intro_form_platform.html:13
 #, fuzzy
@@ -597,10 +603,10 @@ msgid ""
 "the fields below (indicated with an asterisk*), and as much of the non-"
 "mandatory information as possible."
 msgstr ""
-"Gracias por proponer un nuevo recurso de ciencia ciudadana y compartirlo en "
-"laPlataforma EU-Citizen.Science. Por favor, complete toda la información "
-"requerida en los siguientes campos (marcados por un asterisco*), así como la "
-"información noesencial que sea posible."
+"Gracias por crear un perfil de su plataforma o red en la plataforma de "
+"EU-Citizen.Science. Por favor, complete toda la información requerida en"
+"en los siguientes campos (marcados por un asterisco*), así como la "
+"información no esencial que sea posible."
 
 #: platforms/templates/_intro_form_platform.html:15
 #, fuzzy
@@ -615,9 +621,9 @@ msgid ""
 "moderators. This step is simply to check for spam or inappropriate uses of "
 "the profile form."
 msgstr ""
-"Al guardar este perfil, los datos de su organización serán enviados "
-"arevisión por uno de los miembros del consorcio de EU-Citizen.Science. Este "
-"paso se realiza solamente para comprobar si es ‘spam’ o un uso inapropiado "
+"Al guardar este perfil, los datos del perfil de su plataforma o red serán inmediatamente "
+"mostrados en la plataforma, aunque serán posteriormente revisados por alguien moderador de la plataforma. "
+"Este paso se realiza solamente para comprobar si es ‘spam’ o un uso inapropiado "
 "del formulario."
 
 #: platforms/templates/platform.html:37
@@ -630,28 +636,27 @@ msgstr "Organizaciones"
 #, fuzzy
 #| msgid "Geographic Extend"
 msgid "Geographic extend"
-msgstr "Localización geográfica"
+msgstr "Alcance geográfico"
 
 #: platforms/templates/platform.html:71
 #, fuzzy
 #| msgid "Country"
 msgid "Countries"
-msgstr "País"
+msgstr "Países"
 
 #: platforms/templates/platform_form.html:54
 msgid "Network or platform images"
-msgstr ""
+msgstr "Imágenes de la red o plataforma"
 
 #: platforms/templates/platforms.html:9
 msgid "platform and network <span class='lightBlue-color'> search</span>"
-msgstr ""
+msgstr "<span class='lightBlue-color'>buscar</span> plataforma y red"
 
 #: profiles/forms.py:60
 msgid ""
 "Please write or select interest areas, separated by commas or pressing enter"
 msgstr ""
-"Por favor, escriba o seleccione las palabras clave que definen el recurso, "
-"separadas por comas o pulsando enter"
+"Por favor, escriba o seleccione las áreas de interés, separadas por comas o pulando 'enter'"
 
 #: profiles/forms.py:70
 #, fuzzy
